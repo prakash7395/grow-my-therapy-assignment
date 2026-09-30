@@ -17,14 +17,14 @@ export const metadata: Metadata = {
     "licensed clinical psychologist Santa Monica",
     "Dr. Maya Reynolds",
   ],
-  authors: [
-    {
-      name: "Dr. Maya Reynolds, PsyD",
-    },
-  ],
+  authors: [{ name: "Dr. Maya Reynolds, PsyD" }],
   creator: "Dr. Maya Reynolds, PsyD",
   publisher: "Dr. Maya Reynolds, PsyD",
-  metadataBase: new URL("http://localhost:3000"),
+
+  metadataBase: new URL(
+    "https://grow-my-therapy-assignment-ten.vercel.app"
+  ),
+
   openGraph: {
     title:
       "Anxiety & Trauma Therapy for Adults in Santa Monica, CA | Dr. Maya Reynolds",
@@ -34,6 +34,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     siteName: "Dr. Maya Reynolds, PsyD",
   },
+
   robots: {
     index: true,
     follow: true,
